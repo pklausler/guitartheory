@@ -66,16 +66,56 @@ The four voicings that we just found on four adjacent strings have an interestin
 1. `3715`
 1. `5137`
 1. `7351`
+
 In each voicing, the root and the fifth appear as a pair, and so do the third and the seventh.
-The pairs are never separated, although they might swap places.
+The pairs are never separated as we move up or down on the same set of strings, although the
+two pairs exchange places, and the two notes in one pair will swap order.
 ## Diatonic Chord Progressions
 Suppose we're playing in the key of C major.
 The *diatonic* chords in C major are CM7, D-7, E-7, FM7, G7, A-7, and B-7b5.
 These chords have generic names in Roman numerals: IM7, II-7, III-7, IVM7, V7, VI-7, and VII-7b5.
-
+### Nearest Neighbors
 Suppose that we're playing a CM7 chord (`C-E-G-B`, IM7) and want to move to A-7 (`A-C-E-G`, VI-7).
 Those chords are pretty similar -- they share three of their four tones.
 So we can change CM7 to A-7 by simply dropping the seventh (`B`) of CM7 to become the root (`A`) of A-7.
 
-In terms of chord voicings: if we're playing the CM7 as a `1573` on four adjacent strings,
-we drop the `7` two frets and we then have 
+In terms of chord voicings: if we're playing the CM7 on any four strings,
+we can drop its seventh (`B`) two frets to become the root (`A`) of A-7.
+For example, CM7's `5137` at `G-C-E-B` (`3-3-2-4-x-x`) becomes A-7's `7351` at `G-C-E-A` (`3-3-2-2-x-x`).
+This works for *any* voicing of a CM7 chord.
+
+So the VI is the near neighbor *below* the I.  The near neighbor *above* the I is the III,
+which is found by raising the root (`C` in CM7) to become the seventh (`D` in E-7).
+Specifically, CM7's `1573` at `C-G-B-E` (`8-10-9-9-x-x`) becomes E-7's `7351` at `D-G-B-E` (`10-10-9-9-x-x`).
+## Other Neighbors
+We can change the I to a VII or III by moving a single voice down or up (respectively).
+The IV and the V are also nearby, by applying the same move twice.
+
+As we saw, we can move from the I chord to the VII by lowering its seventh to become the root of the VII.
+If we do this a second time, lowering the seventh of the VII, it becomes the root of the IV.
+For example, A-7's `7351` at `G-C-E-A` (`3-3-2-2-x-x`) becomes FM7's `1573` at `F-C-E-A` (`1-3-2-2-x-x`).
+(This is not the best voice leading, however; see a better change below.)
+
+In the other direction, after transforming the I chord to the III by raising its root to become the seventh,
+we can raise the root of the III to become the seventh of the V.
+So CM7 becomes E-7 becomes G7, for example, via its `3715` (`E-B-C-G` at `12-14-10-12-x-x`) to
+E-7's `1573` (`E-B-D-G` at `12-14-12-12-x-x`) to G7's `7351` (`F-B-D-G` at `13-14-12-12-x-x`).
+
+So we can get from I to VI to IV by lowering sevenths to become roots, and from I to III to V by raising roots
+to become sevenths.
+What about the two remaining diatonic chords?  The II and the VII have only one tone in common with the I, so they
+are three steps away.
+Specifically, I can become II via I -> VI -> IV -> II, and I can become VII via I -> III -> V -> VII.
+
+## Better voice leading
+When a chord progression resolves by changing the V to the I (usually V7 -> IM7), we could do it
+with this method by lowering the seventh and the fifth of the V to become the third and the root
+of the I (e.g., G7's `7351` at `F-B-D-G` (`13-14-12-12-x-x`) to CM7's `3715` at `E-B-C-G` (`12-14-10-12-x-x`)).
+But it really sounds better to resolve the V7 to the I by raising the third of the V7 to become the
+root of the I -- the third of the V7 is the *leading tone* that sits just one fret below the root of the I.
+
+Let's figure this out in our little system of staying on the same set of four strings.
+Suppose that we want to end up with a resolution at CM7's `5137` at `G-C-E-B` (`3-3-2-4-x-x`).
+The leading tone is on the same string as CM7`s root, one fret lower in pitch, so it's
+the B at `x-2-x-x-x-x`.
+That's the third of some form of G7, and
