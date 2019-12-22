@@ -97,6 +97,9 @@ This works for *any* voicing of a CM7 chord.
 So the VI is the near neighbor *below* the I.  The near neighbor *above* the I is the III,
 which is found by raising the root (`C` in CM7) to become the seventh (`D` in E-7).
 Specifically, CM7's `1573` at `C-G-B-E` (`8-10-9-9-x-x`) becomes E-7's `7351` at `D-G-B-E` (`10-10-9-9-x-x`).
+
+The VII and the II can be reached by using the same voicing and just dropping down or raising up the tones
+of I by a fret or two, so they also count as "near neighbors".
 ## Other Neighbors
 We can change the I to a VII or III by moving a single voice down or up (respectively).
 The IV and the V are also nearby, by applying the same move twice.
@@ -113,9 +116,10 @@ E-7's `1573` (`E-B-D-G` at `12-14-12-12-x-x`) to G7's `7351` (`F-B-D-G` at `13-1
 
 So we can get from I to VI to IV by lowering sevenths to become roots, and from I to III to V by raising roots
 to become sevenths.
-What about the two remaining diatonic chords?  The II and the VII have only one tone in common with the I, so they
+The II and the VII have only one tone in common with the I, so they
 are three steps away.
 Specifically, I can become II via I -> VI -> IV -> II, and I can become VII via I -> III -> V -> VII.
+(But as noted above, the II and the VII are also near neighbors if one changes all four tones.)
 
 ## Better voice leading
 When a chord progression resolves by changing the V to the I (usually V7 -> IM7), we could do it
@@ -149,6 +153,15 @@ up one position, then using that pattern as the voicing for the V.
 
 One can apply similar techniques to use leading tones in II-V-I progressions, since the
 II is the V of the V.
+## Changing string sets
+As you probably already know, you can relocate any chord on the guitar by shifting the
+pattern up one string, assuming there's still one left, and then moving towards the nut
+by five or four frets.
+Conversely, one can move a patten to a lower set of strings by moving up in pitch
+five or four frets.
+
+This is useful to know when using the "buddy system" because one can quickly run out
+of room moving up and down the neck.
 ## Four tones on sets of five and six strings
 The same buddy system (roots pair with fifths, thirds pair with sevenths) applies if we
 introduce an unplayed string between the two pairs; however, the two tones in one pair
