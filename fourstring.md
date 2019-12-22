@@ -60,4 +60,22 @@ The `7351` shape can itself be lowered to `5137` (`G-C-E-Bb`, `3-3-2-3-x-x`).
 Moving in the other direction, the `1573` shape can be *raised* to `3715`
 (`E-Bb-C-G`, `12-13-10-12-x-x`), and again to `5137` (`15-15-14-15-x-x`).
 And that's the same as the `5137` we found earlier, it's just an octave higher.
+### The "Buddy System"
+The four voicings that we just found on four adjacent strings have an interesting property.
+1. `1573`
+1. `3715`
+1. `5137`
+1. `7351`
+In each voicing, the root and the fifth appear as a pair, and so do the third and the seventh.
+The pairs are never separated, although they might swap places.
+## Diatonic Chord Progressions
+Suppose we're playing in the key of C major.
+The *diatonic* chords in C major are CM7, D-7, E-7, FM7, G7, A-7, and B-7b5.
+These chords have generic names in Roman numerals: IM7, II-7, III-7, IVM7, V7, VI-7, and VII-7b5.
 
+Suppose that we're playing a CM7 chord (`C-E-G-B`, IM7) and want to move to A-7 (`A-C-E-G`, VI-7).
+Those chords are pretty similar -- they share three of their four tones.
+So we can change CM7 to A-7 by simply dropping the seventh (`B`) of CM7 to become the root (`A`) of A-7.
+
+In terms of chord voicings: if we're playing the CM7 as a `1573` on four adjacent strings,
+we drop the `7` two frets and we then have 
