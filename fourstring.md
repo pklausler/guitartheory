@@ -70,6 +70,13 @@ The four voicings that we just found on four adjacent strings have an interestin
 In each voicing, the root and the fifth appear as a pair, and so do the third and the seventh.
 The pairs are never separated as we move up or down on the same set of strings, although the
 two pairs exchange places, and the two notes in one pair will swap order.
+
+There's another cool property of these four voicings: each tone appears in each of the four
+positions.  So if we need a voicing with (say) the third in the lowest position, it's
+immediately identifiable (`3715`).
+If we wanted to, we could name these four voicings just by their lowest tones, their
+highest tones, by the position of the root in the inversion, or another tone.
+This becomes useful when we consider voice leading below.
 ## Diatonic Chord Progressions
 Suppose we're playing in the key of C major.
 The *diatonic* chords in C major are CM7, D-7, E-7, FM7, G7, A-7, and B-7b5.
@@ -118,4 +125,21 @@ Let's figure this out in our little system of staying on the same set of four st
 Suppose that we want to end up with a resolution at CM7's `5137` at `G-C-E-B` (`3-3-2-4-x-x`).
 The leading tone is on the same string as CM7`s root, one fret lower in pitch, so it's
 the B at `x-2-x-x-x-x`.
-That's the third of some form of G7, and
+That's the third of some form of G7, and as was mentioned above, that form is unique:
+it has to be G7's `7351` at `F-B-D-G` (`1-2-0-0-x-x`).
+
+So the voicings that resolve via raising the leading tone are
+
+| V7  | to I |
+| --- | ---- |
+| `3715` | `1573` |
+| `5137` | `3715` |
+| `7351` | `5137` |
+| `1573` | `7351` |
+
+There's a pattern here that's useful to spot: for any given voicing of the I chord, the
+voicing of its V with a good leading tone can be found by raising the tones of the I
+up one position, then using that pattern as the voicing for the V.
+
+(Another good way to resolve V to the I via raising the leading tone is to play the
+`5137` voicing of the V and then shift it higher by one *string* to the `5137` of the I.)
