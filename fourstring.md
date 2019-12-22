@@ -18,14 +18,17 @@ In the key of C, we have these common four-tone chords
 
 | chord | root | third | fifth | seventh |
 | ----- | ---- | ----- | ----- | ------- |
-| 7 | C | E | G | Bb |
-| M7 | C | E | G | B |
-| -7 | C | Eb | G | Bb |
-| -M7 | C | Eb | G | B |
-| 6 | C | E | G | Bbb (A) |
-| 7#5 | C | E | G# | Bb |
-| -7b5 | C | Eb | Gb | Bb |
-| dim7 | C | Eb | Gb | Bbb(A) |
+| C7 | C | E | G | Bb |
+| CM7 | C | E | G | B |
+| C-7 | C | Eb | G | Bb |
+| C-M7 | C | Eb | G | B |
+| C6 | C | E | G | Bbb (A) |
+| C7#5 | C | E | G# | Bb |
+| C-7b5 | C | Eb | Gb | Bb |
+| Cdim7 | C | Eb | Gb | Bbb(A) |
+
+You'll see other symbols for these chords in some lead sheets are harmony texts;
+the notation is not as well standardized as it could be.
 
 ## Four-tone chords on four adjacent strings
 ### Inversions
@@ -123,7 +126,7 @@ root of the I -- the third of the V7 is the *leading tone* that sits just one fr
 
 Let's figure this out in our little system of staying on the same set of four strings.
 Suppose that we want to end up with a resolution at CM7's `5137` at `G-C-E-B` (`3-3-2-4-x-x`).
-The leading tone is on the same string as CM7`s root, one fret lower in pitch, so it's
+The leading tone is on the same string as CM7's root, one fret lower in pitch, so it's
 the B at `x-2-x-x-x-x`.
 That's the third of some form of G7, and as was mentioned above, that form is unique:
 it has to be G7's `7351` at `F-B-D-G` (`1-2-0-0-x-x`).
@@ -142,4 +145,40 @@ voicing of its V with a good leading tone can be found by raising the tones of t
 up one position, then using that pattern as the voicing for the V.
 
 (Another good way to resolve V to the I via raising the leading tone is to play the
-`5137` voicing of the V and then shift it higher by one *string* to the `5137` of the I.)
+`5137` voicing of the V and then shift it higher by one *string* to become the `5137` of the I.)
+
+One can apply similar techniques to use leading tones in II-V-I progressions, since the
+II is the V of the V.
+## Four tones on sets of five and six strings
+The same buddy system (roots pair with fifths, thirds pair with sevenths) applies if we
+introduce an unplayed string between the two pairs; however, the two tones in one pair
+are swapped.
+In particular, we have these four basic patterns:
+1. `15x37`
+1. `37x51`
+1. `51x73`
+1. `73x15`
+
+As was the case with our original four patterns, each of these can be raised up or lowered
+down to become another in the collection, and raising up four times (or lowering) gets one
+to the same pattern, one octave higher or lower.
+
+Obviously we can use these only on two sets of five strings on a six-string guitar.
+
+Another way of deriving these patterns is to realize that the tone that used to be on the string that
+we're now skipping has been raised an octave.
+This is a useful transformation -- it makes the harmonization "broader".
+One can change any of our original four patterns (so long as they're not being played on the topmost
+four strings!) by one of these by moving one tone, and vice versa.
+
+It's also possible to spread out our original four voicings in two other ways, of course.
+These are
+1. `1x735` and `157xx3`
+1. `3x157` (but not `371xx5`, unless you have very long and flexible fingers!)
+1. `5x371` and `513xx7`
+1. `7x513` and `735xx1`
+
+And there's also `13xx57` and `57xx13`, which break up our usual buddy system, but are very
+much worth knowing if only because the `13xx57` form of the M7 chord is so beautiful on the
+guitar (e.g., CM7 as `C-E-x-x-G-B` or `8-7-x-x-8-7`).
+
