@@ -14,7 +14,7 @@ Since three of the four tones in a chord can vary, there are many possible combi
 This note is not meant to be a comprehensive guide to harmony (there are many good sources for that!).
 For our purposes here, we're going to limit ourselves just to chords that follow this pattern.
 ### Examples
-In the key of C, we have these common four-tone chords
+With C as a root note, we have these common four-tone chords
 
 | chord | root | third | fifth | seventh |
 | ----- | ---- | ----- | ----- | ------- |
@@ -27,7 +27,7 @@ In the key of C, we have these common four-tone chords
 | C-7b5 | C | Eb | Gb | Bb |
 | Cdim7 | C | Eb | Gb | Bbb(A) |
 
-You'll see other symbols for these chords in some lead sheets are harmony texts;
+You'll see other symbols for these chords in some lead sheets and harmony texts;
 the notation is not as well standardized as it could be.
 
 ## Four-tone chords on four adjacent strings
